@@ -1,0 +1,21 @@
+{
+  "name": "simple-timezones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "moment-timezone": "^0.5.43",
+    "uuid": "^9.0.1"
+  }
+}
