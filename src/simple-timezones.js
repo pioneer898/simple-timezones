@@ -65,7 +65,7 @@ class ZoneMap{
         currentSecond: now.tz(e).format('ss'),
         currentAmPm: now.tz(e).format('a'),
         currentMonth: now.tz(e).format('MMMM'),
-        currentDate: (parseInt(now.tz(e).format('d'))+1).toString(),
+        currentDate: parseInt(now.tz(e).format('D')).toString(),
         currentYear: now.tz(e).format('yyyy'),
         offset: now.tz(e).utcOffset()/60,
         data: t.zoneHrArray(now.clone(),e,hours)
